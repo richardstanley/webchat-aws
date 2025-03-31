@@ -16,7 +16,6 @@ cdk.out
 # Build output
 dist/
 build/
-lib/
 
 # Environment files
 .env
