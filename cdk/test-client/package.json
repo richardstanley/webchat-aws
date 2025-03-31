@@ -1,0 +1,8 @@
+{
+  "name": "webchat-aws-test-client",
+  "version": "1.0.0",
+  "description": "Test client for WebSocket chat application",
+  "scripts": {
+    "start": "node server.js"
+  }
+} 

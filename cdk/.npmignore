@@ -1,0 +1,45 @@
+# TypeScript source files
+*.ts
+!*.d.ts
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Development files
+.git
+.gitignore
+.eslintrc*
+.prettierrc*
+.editorconfig
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test files
+__tests__/
+*.test.ts
+*.spec.ts
+coverage/
+
+# Build output
+dist/
+build/
+lib/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Misc
+.DS_Store
+*.pem

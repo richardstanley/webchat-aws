@@ -1,0 +1,21 @@
+{
+  "name": "webchat-aws-lambda",
+  "version": "1.0.0",
+  "description": "Lambda functions for WebSocket chat application",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.540.0",
+    "@aws-sdk/client-s3": "^3.540.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.540.0",
+    "@aws-sdk/client-apigatewaymanagementapi": "^3.540.0",
+    "@aws-sdk/lib-dynamodb": "^3.540.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.92",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.4.2"
+  }
+} 
